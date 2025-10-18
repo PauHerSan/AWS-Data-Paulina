@@ -9,6 +9,7 @@ WORKDIR /app
 
 # Copiar el código de la app
 COPY app.py /app/
+COPY online_gaming_insights.csv .
 
 # Exponer el puerto de Streamlit
 EXPOSE 8501
